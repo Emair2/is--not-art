@@ -21,6 +21,7 @@ const provider = new ethers.providers.Web3Provider(window.ethereum);
 
       // console.log(artStatus)
 
+      //在此修改文字
       if(artStatus) {
         $('#status').text('art');
       } else {
